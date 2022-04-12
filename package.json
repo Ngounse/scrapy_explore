@@ -1,0 +1,13 @@
+{
+  "name": "z1datarnd",
+  "version": "1.0.0",
+  "description": "scrapy",
+  "main": "index.js",
+  "repository": "",
+  "author": "<hengngoungse@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "crawl": "scrapy crawl"
+  }
+}

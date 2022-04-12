@@ -1,0 +1,21 @@
+{
+  "workbench.colorTheme": "Django",
+  "python.linting.enabled": true,
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/node_modules": true,
+    "**/__pycache__": true,
+    ".{dev,shadowenv.d,ipython,github}": true
+  },
+  "python.linting.pydocstyleArgs": ["--ignore=D400"],
+  "python.defaultInterpreterPath": "~/.virtualenvs/env-scrapy/bin/python3",
+  "python.linting.pylintEnabled": true
+}
