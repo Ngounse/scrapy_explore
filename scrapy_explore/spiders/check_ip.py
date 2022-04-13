@@ -1,13 +1,13 @@
 import scrapy
 
 
-class FreeSpider(scrapy.Spider):
+class CheckIPSpider(scrapy.Spider):
     name = 'checkip'
     allowed_domains = ['http://httpbin.org/']
     
     def start_requests(self):
         print('free ::: ')
-        for i in range(10):
+        for i in range(3):
             ip = scrapy.Request(url='http://httpbin.org/ip?i='+str(i))
             yield ip
 
