@@ -1,0 +1,13 @@
+[scrapy]
+settings = scrapy_explore.settings
+scrapy_explore/__init__.py
+scrapy_explore/middlewares.py
+scrapy_explore/pipelines.py
+scrapy_explore/settings.py
+scrapy_explore.egg-info/PKG-INFO
+scrapy_explore.egg-info/SOURCES.txt
+scrapy_explore.egg-info/dependency_links.txt
+scrapy_explore.egg-info/entry_points.txt
+scrapy_explore.egg-info/top_level.txt
+z1datarnd/spiders/__init__.py
+z1datarnd/spiders/slideshare.py

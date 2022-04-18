@@ -1,12 +1,12 @@
 {
-  "name": "z1datarnd",
+  "name": "scrapy_explore",
   "version": "1.0.0",
   "description": "scrapy",
   "main": "index.js",
-  "repository": "",
+  "repository": "https://github.com/Ngounse/scrapy_explore",
   "author": "<hengngoungse@gmail.com>",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts": {
     "crawl": "scrapy crawl"
   }
