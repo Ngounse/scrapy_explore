@@ -6,7 +6,7 @@
   "repository": "https://github.com/Ngounse/scrapy_explore",
   "author": "<hengngoungse@gmail.com>",
   "license": "MIT",
-  "private": false,
+  "private": true,
   "scripts": {
     "crawl": "scrapy crawl"
   }

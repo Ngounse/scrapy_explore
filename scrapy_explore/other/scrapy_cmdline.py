@@ -17,7 +17,7 @@ process = CrawlerProcess({
 })
 
 
-schedule.every(30).seconds.do(run_spider_cmd)
+schedule.every(3000).seconds.do(run_spider_cmd)
 
 while True:
     schedule.run_pending()
